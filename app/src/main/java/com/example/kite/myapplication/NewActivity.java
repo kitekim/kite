@@ -18,11 +18,11 @@ public class NewActivity extends AppCompatActivity{
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_new);
+            setContentView(R.layout.content_new);
         }
 
-        public void onButtonClicked1(View v) {
-            Toast.makeText(getApplicationContext(), "뒤로가기.", Toast.LENGTH_LONG).show();
+        public void onBackButtonClicked(View v) {
+            Toast.makeText(getApplicationContext(), "뒤로가기", Toast.LENGTH_LONG).show();
             finish();
 
         }

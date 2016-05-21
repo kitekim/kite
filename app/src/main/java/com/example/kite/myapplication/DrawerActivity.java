@@ -5,11 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-public class NewActivity2 extends AppCompatActivity{
+public class DrawerActivity extends AppCompatActivity{
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.content_new2);
+            setContentView(R.layout.drawer_new);
         }
 
         public void onBackButtonClicked(View v) {
