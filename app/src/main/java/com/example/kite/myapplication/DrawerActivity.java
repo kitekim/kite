@@ -13,7 +13,7 @@ public class DrawerActivity extends AppCompatActivity{
         }
 
         public void onBackButtonClicked(View v) {
-            Toast.makeText(getApplicationContext(), "뒤로가기", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "뒤로가기.", Toast.LENGTH_LONG).show();
             finish();
 
         }
